@@ -8,4 +8,4 @@
 
 **4. Dado el fichero pseudo-elementos.html aplica los estilos que se describen en sus comentarios.**
 
-**5. Incluye en el fichero anterior un formulario con varios elementos que puedan contener un placeholder y aplícale estilos a estos de modo que se muestren de color naranja.
+**5. Incluye en el fichero anterior un formulario con varios elementos que puedan contener un placeholder y aplícale estilos a estos de modo que se muestren de color naranja.**
