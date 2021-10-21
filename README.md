@@ -10,5 +10,5 @@
 
 **5. Incluye en el fichero anterior un formulario con varios elementos que puedan contener un placeholder y aplícale estilos a estos de modo que se muestren de color naranja.**
 
-## BONUS ##
+## ¡BONUS! ##
 Modifica el fichero abreviando.css para usar las versiones abreviadas tanto de las propiedades como de los valores que se muestran.
