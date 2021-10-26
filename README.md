@@ -1,4 +1,4 @@
-# Hojas de estilo (I) - Pseudo-clases y pseudo-elementos
+# Hojas de estilo I - Pseudo-clases y pseudo-elementos (SOLUCIONADO En la rama "solution")
 
 **1. Haciendo uso de selectores de elementos (no se puede incluir clases o id en el código HTML), aplica en el fichero pseudo-clases-I.html las psuedoclases necesarias para obtener el resultado que se pide dentro del código.**
 
