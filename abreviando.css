@@ -1,61 +1,184 @@
-.uno {
-  font-size: 1.5em;
-  line-height: 200%;
-  font-weight: bold;
-  font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .uno {
+        font-size: 1.5em;
+        line-height: 200%;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
 
-.dos {
-  background-color: #000;
-  background-image: url(image.gif);
-  background-repeat: no-repeat;
-  background-position: top left;
-} 
+      .dos {
+        background-color: #000;
+        background-image: url(image.gif);
+        background-repeat: no-repeat;
+        background-position: top left;
+      }
 
-.tres {
-  list-style-type: circle;
-  list-style-position: inside;
-  list-style-image: url(bullet.gif);
-} 
+      .tres {
+        list-style-type: circle;
+        list-style-position: inside;
+        list-style-image: url(bullet.gif);
+      }
 
-.cuatro {
-  border-width: 2px;
-  border-style: solid;
-  border-color:black;
-} 
+      .cuatro {
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+      }
 
-.cinco {
-  margin-top: 1em;
-  margin-right: 0.5em;
-  margin-bottom: 2em;
-  margin-left: 2.5em;
-} 
+      .cinco {
+        margin-top: 1em;
+        margin-right: 0.5em;
+        margin-bottom: 2em;
+        margin-left: 2.5em;
+      }
 
-.seis {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
-} 
+      .seis {
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+      }
 
-.siete {
-  margin-top: 1em;
-  margin-right: 2em;
-  margin-bottom: 1em;
-  margin-left: 2em;
-} 
+      .siete {
+        margin-top: 1em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+      }
 
-.ocho {
-  margin-top: 1.5em;
-  margin-right: 1.5em;
-  margin-bottom: 1.5em;
-  margin-left: 0.5em;
-} 
+      .ocho {
+        margin-top: 1.5em;
+        margin-right: 1.5em;
+        margin-bottom: 1.5em;
+        margin-left: 0.5em;
+      }
 
-.nueve {
-  margin-top: 1.5em;
-  margin-right: 0.5em;
-  margin-bottom: 1em;
-  margin-left: 0.5em;
-} 
+      .nueve {
+        margin-top: 1.5em;
+        margin-right: 0.5em;
+        margin-bottom: 1em;
+        margin-left: 0.5em;
+      }
+
+      /* SOLUCIÓN */
+      .uno-abrev {
+        font: italic bold 1.5em/200% Georgia, "Times New Roman", Times, serif;
+      }
+
+      .dos-abrev {
+        background: #000 url(image.gif) no-repeat top left;
+      }
+
+      .tres-abrev {
+        list-style: circle inside url(bullet.gif);
+      }
+
+      .cuatro-abrev {
+        border: 2px solid black;
+      }
+
+      .cinco-abrev {
+        margin: 1em 0.5em 2em 2.5em;
+      }
+
+      .seis-abrev {
+        padding: 1em;
+      }
+
+      .siete-abrev {
+        margin: 1em 2em;
+      }
+
+      .ocho-abrev {
+        margin: 1.5em 1.5em 1.5em 0.5em;
+      }
+
+      .nueve-abrev {
+        margin: 1.5em 0.5em 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="uno">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="dos">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="tres">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="cuatro">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="cinco">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="seis">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="siete">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="ocho">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="nuevo">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <hr />
+    <p class="uno-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="dos-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="tres-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="cuatro-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="cinco-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="seis-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="siete-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="ocho-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+    <p class="nuevo-abrev">
+      Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet
+      quam vehicula elementum sed sit amet dui.
+    </p>
+  </body>
+</html>
